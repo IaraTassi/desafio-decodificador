@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Codificador - Decodificador</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./imgs/Vector.svg" alt="Logo Alura letra" />
+      </div>
+    </header>
+    <main id="container">
+      <section id="left">
+        <div>
+        <label for="message-encrypt"></label>
+        <textarea
+          name="message-encrypt"
+          id="message-encrypt"
+          placeholder="Digite seu texto"
+          autofocus
+        ></textarea>
+        <div class="attention">
+          <img 
+          
+            class="attention-img"
+            src="./imgs/atencao.svg"
+            alt="Ponto de exclamação"
+          />
+          <p class="attention-text">Apenas letras minúsculas e sem acento.</p>
+       
+
+        <div id="btn">
+          <button class="btn-encrypt" onclick="btnEncrypt()">
+            Criptografar
+          </button>
+          <button class="btn-descrypt" onclick="btnDescrypt()">
+            Descriptografar
+          </button>
+        </div>
+        </div>
+      </div>
+      </section>
+
+      <section id="rigth">
+        <label for="message-descrypt"></label>
+        <textarea
+          name="message-descrypt"
+          id="message-descrypt"
+          placeholder=""
+          autofocus
+        ></textarea>
+        <button onclick="copy()" id="btn-copy">Copiar</button>
+        <div class="message-img">
+          <img
+            class="img"
+            src="./imgs/High quality products 1 1.svg"
+            alt="Imagem de garoto com um lupa"
+          />
+          <p class="info-title">Nenhuma mensagem encontrada</p>
+          <p class="info-subtitle">
+            Digite um texto que você deseja criptografar ou descriptografar.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <p class="footer-message">ORACLE + Alura | One Oracle Next Education</p>
+        <p class="footer-message">&copy;Iara Tassi</p>
+      </div>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
