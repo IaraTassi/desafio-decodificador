@@ -5,7 +5,7 @@ Descubra qual é a nossa mensagem secreta! (mensagem deixada pelo time Oracle + 
 
 "pairaibenterns poberr enterncairair enterssenter dentersaifimesober enter tenterr fimesnailimeszaidober enterlenter coberm sufatcenterssober!"
 
-##  🚀 Resolvi não ser criativa, para me desafiar já que em um projeto real desenvolvemos o mesmo conforme o que foi criado pelos desings. 
+##  🚀 Resolvi não ser criativa, para me desafiar já que em um projeto real desenvolvemos o mesmo conforme o que foi criado pelos designers. 
 
 ## Descrição do Desafio
 A ideia do desafio era criar um sistema de criptografia de texto simples, no qual determinadas letras seriam substituídas por outras, 
